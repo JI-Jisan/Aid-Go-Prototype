@@ -1,16 +1,38 @@
-# React + Vite
+# 🚨 AidGo Prototype — Web UI/UX Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AidGo Prototype** is an interactive, web-based interface prototype for the **AidGo Emergency Disaster Response System**. Developed using **React** and **Vite**, this prototype models the core UI components, user flows, and operational dashboards used to coordinate victims, volunteers, and emergency response teams during natural disasters.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Web Demo
 
-## React Compiler
+You can explore the interactive web application live on Vercel:  
+👉 **[aid-go-prototype.vercel.app](https://aid-go-prototype.vercel.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Prototype Scope & Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **📱 Interactive UI Components:** High-fidelity web screens representing emergency request forms, volunteer registration, and resource tracking.
+* **⚡ Lightning Fast Performance:** Built with Vite for instant hot module replacement (HMR) and optimized build performance.
+* **🛡️ Role-Based Interface Workflows:** Simulates the UI experience for both general users and response administrators.
+* **📊 Visual Dashboards:** Layout prototypes for tracking active cases, volunteer availability, and relief supplies.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+* **Frontend Framework:** React.js
+* **Build Tool:** Vite
+* **Linting & Code Quality:** ESLint (`eslint.config.js`)
+* **Deployment Platform:** Vercel
+
+---
+
+## 💻 Running the Prototype Locally
+
+To set up and run this web prototype on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/JI-Jisan/Aid-Go-Prototype.git](https://github.com/JI-Jisan/Aid-Go-Prototype.git)
